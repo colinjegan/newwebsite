@@ -1,0 +1,223 @@
+html{
+  font-size: 62.5%
+}
+body{
+    margin: 0;
+    font-family: helvetica;
+    background-color: #fafcda;
+}
+nav{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  position: fixed;
+  background-color: #F8F8F8;
+  z-index: 100;
+  padding-bottom: 2rem;
+  font-size: 1.6rem;
+}
+a:link,a:visited{
+  text-decoration: none;
+  color: purple;
+}
+a:hover{
+  color: blue;
+}
+.sis,.lyft,.etsy,.recipe,.myfitnesspal{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  border-radius: 1rem;
+}
+.etsy{
+  background-color: #F45800;
+}
+.myfitnesspal{
+  background-color: #0070BF;
+  margin-left: 30px;
+}
+.recipe{
+  background-color:#00FF7F;
+}
+.lyft{
+  background-color: #EA0B8C;
+  color: white;
+}
+.sis{
+  background-color: #141E3C;
+}
+.divresponsive{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 20rem;
+  height: 2vw;
+  width: 9vw;
+  background-color: #fafcda;
+  margin-left: 3rem;
+  border-color: purple;
+  color: purple;
+  border-style: solid;
+  font-size:.8vw;
+  font-weight: bold;
+  border-radius: .6rem;
+  text-align: center;
+  align-items: center;
+  margin-right: 0;
+}
+#otherresponsive:link{
+  margin: auto;
+  text-decoration: none;
+}
+#brain{
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+#flexparent{
+  display: flex;
+  width: 30rem;
+  margin-right: 5rem;
+  flex-basis: auto;
+  justify-content: space-between;
+}
+#fake{
+  background-color: #fafcda;
+  color: red;
+}
+#q{
+  color: #fafcda;
+}
+#ultimate{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 2vw;
+  margin-top: -5rem;
+}
+#ultimate div{
+  margin-top: 12rem;
+  margin-left: 6vw;
+  margin-right: 3vw;
+  margin-bottom: -9rem;
+  width: 17.5vw;
+  height: 17.5vw;
+  border-color: white;
+  color: white;
+}
+#ultimate h2{
+  font-size: 1.2vw;
+}
+#ultimate p{
+  font-size: .8vw;
+}
+@media (max-width: 1124px){
+  .divresponsive{
+    height: 3vw;
+    width: 12vw;
+    font-size: 1.1vw;
+    }
+  }
+.divresponsive2{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  top: 22rem;
+  height: 2vw;
+  width: 9vw;
+  margin-top: 1vw;
+  background-color: #fafcda;
+  margin-left: 3rem;
+  border-color: purple;
+  color: white;
+  border-style: solid;
+  background-color: purple;
+  font-size:.8vw;
+  font-weight: bold;
+  border-radius: .6rem;
+  text-align: center;
+  margin-right: 0;
+    }
+#otherresponsive2{
+  margin: auto;
+  text-decoration: none;
+    }
+@media (max-width: 1124px){
+  .divresponsive2{
+      height: 3vw;
+      width: 12vw;
+      font-size: 1.1vw;
+    }
+}
+@media (max-width: 790px){
+  #flexdiv{
+    font-size: 3vw;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    }
+  .divresponsive,.divresponsive2{
+    top: 70vw;
+    height: 3rem;
+    font-size: 1.2vw;
+    width: 9rem;
+    }
+    #ultimate p{
+      font-size: 1.5vw;
+    }
+    #ultimate h2{
+      font-size: 1.9vw;
+    }
+}
+@media (max-height:550px ){
+  #ultimate{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 6vw;
+    margin-top: -10rem;
+  }
+  #ultimate div{
+    margin-top: 12rem;
+    margin-left: 8vh;
+    margin-right: 3vh;
+    margin-bottom: -9rem;
+    width: 42vh;
+    height: 42vh;
+    border-color: white;
+    color: white;
+  }
+    #ultimate{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      margin-left: 14vw;
+      top: 5vw;
+    }
+    #flexdiv{
+
+    top: 30rem;
+      display: inline-flex;
+      flex-direction: column;
+      margin-bottom: 50px;
+      position: relative;
+      z-index:-2;
+      top: -15vh;
+
+}
+}
